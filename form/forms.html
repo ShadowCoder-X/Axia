@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+
+    <h1>Registrstion Form</h1>
+    <form action="">
+        <div>
+            <label for="fname">First Name:</label><br>
+            <input 
+            id="fname" 
+            type="text" 
+            placeholder="Enter your first name">
+        </div><br>
+
+        <div>
+            <label for="lname" >Last Name:</label><br>
+            <input 
+            id="lname" 
+            type="text" 
+            placeholder="Enter your last name">
+        </div><br>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input 
+            id="email" 
+            type="text"
+            placeholder="name@example.com" required>
+        </div><br>
+
+        <div>
+            <label for="gender">Select Gender</label><br>
+
+            <select name="gender" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Transgender</option>
+                <option>Preferred not to say</option>
+                <option>Others</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="age">Age (optional) </label><br>
+            <input type="date" />
+        </div><br>
+
+        <div>
+            <label for="education">Level of education</label><br>
+        
+            <select>
+                <option>MSc</option>
+                <option>PhD</option>
+                <option>HND</option>
+                <option>NCE</option>
+                <option>BSc</option>
+                <option>SSCE</option>
+                <option>Others</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="disable">Are you Disabled</label><br>
+
+            <input id="yes" type="radio" name="disable">
+            <label for="yes">Yes</label><br>
+
+            <input id="no" type="radio" name="disable">
+            <label for="no">No</label><br>
+
+            <input id="don't know" type="radio" name="disable">
+            <label for="other">Don't know</label><br>
+        </div><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
