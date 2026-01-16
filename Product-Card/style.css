@@ -5,4 +5,23 @@
 }
 
 .container {
+  border: 1px solid red;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.center-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-side {
+  height: 100vh;
+  width: ;
+}
+
+.img1 {
+  height: 50vh;
+  width: 50vw;
 }
